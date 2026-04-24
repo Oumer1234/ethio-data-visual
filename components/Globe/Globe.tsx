@@ -2,14 +2,14 @@ function Globe() {
   return (
     <div
       style={{
-        width: "80%",
-        height: "100%",
+        width: "100%",
+        // height: "40%",
         backgroundColor: "skyblue",
         border: "2px solid navy",
-
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        minHeight: "100vh",
       }}
     >
       I am a box
